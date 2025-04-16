@@ -68,6 +68,10 @@ public class JavaCollectors {
 
         System.out.println("Sum: " + sum);
 
+        int sum1 = numbers.stream().reduce(0, Integer::sum);
+
+        System.out.println("Sum1: " + sum1);
+
         // Calculating the average of all integers in the list
         double average = numbers.stream().collect(Collectors.averagingInt(Integer::intValue));
 
