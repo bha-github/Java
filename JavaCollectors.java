@@ -24,11 +24,11 @@ public class JavaCollectors {
 
         System.out.println(cityMap);
 
-        // Step 1: Create the count map
+        // Create the count map
         Map<String, Long> cityCountMap = cities.stream()
                 .collect(Collectors.groupingBy(city -> city, Collectors.counting()));
 
-        // Step 2: Sort by count in descending order
+        //Sort by count in descending order (sort by value)
         Map<String, Long> sortedCityCountMap = cityCountMap.entrySet()
                 .stream()
                 .sorted(Map.Entry.<String, Long>comparingByValue(Comparator.reverseOrder()))
@@ -41,6 +41,20 @@ public class JavaCollectors {
 
         // Print result
         System.out.println(sortedCityCountMap);
+
+        //Sort by count in descending order (sort by key)
+        Map<String, Long> sortedkeyCityCountMap = cityCountMap.entrySet()
+                .stream()
+                .sorted(Map.Entry.<String, Long>comparingByKey())
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (e1, e2) -> e1,
+                        LinkedHashMap::new
+                ));
+
+        // Print result
+        System.out.println(sortedkeyCityCountMap);
 
         // Joining elements into a single String
         String joinedCities = cities.stream().collect(Collectors.joining(", "));
