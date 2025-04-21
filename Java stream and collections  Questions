@@ -1,0 +1,33 @@
+1. Find the maximum number in a list using Stream.
+2. Find the second smallest number from a list.
+3. Remove duplicate elements from a list using Stream.
+4. Count the number of even and odd numbers in a list (use partitioningBy).
+5. Sum all elements of a list using reduce().
+6. Convert a list of strings to uppercase using map.
+7. Given a list of integers, return a list of squares of only the odd numbers.
+8. Sort a list in both ascending and descending order using Stream.
+
+class Employee {
+    String name;
+    int salary;
+    String department;
+}
+
+1. Find the highest paid employee.
+2. Group employees by department.
+3. Get the average salary of each department.
+4. List employees whose names start with 'A'.
+5. Get a list of employee names sorted by salary descending.
+6. Find the second highest salary in the company.
+7. Partition employees into two groups: those earning more than 50k and the rest.
+8. Count the number of employees in each department.
+9. Find employees with the minimum salary in each department.
+10. Join all employee names into a single string separated by commas.
+
+🎯 Bonus Challenges
+1. Find the most frequent element in a list.
+2. Check if all numbers in a list are positive
+3. Find the longest string in a list.
+4. Flatten a list of lists (e.g., List<List<String>>) into a single list.
+5. Count character occurrences in a string using Streams.
+
