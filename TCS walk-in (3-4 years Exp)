@@ -1,0 +1,43 @@
+Technical round - 1
+1. Give a brief introduction about yourself and your project.
+2. What is an Interface in Java?
+3. Difference between abstract class and interface.
+4. What is an exception in Java and how can we handle it? What is a Checked Exception?
+5. How to create an Immutable class in Java?
+6. What is a Functional Interface in Java 8? -->
+7. What is a method reference in Java 8? -->
+8. How is memory allocation done in Java 8?
+9. Define the Optional class in Java 8.
+10. Difference between StringBuffer and StringBuilder. Which one is efficient?
+11. Internal working of HashMap in Java.
+12. What are Lambda Expressions in Java?
+13. Default methods in Java 8. Can we override static methods?
+14. What are streams in Java?
+15. Write a program to find the second highest salary from an ArrayList using Java 8 Streams. How many streams are created in the existing program?
+16. compareTo and comparator
+17. What is Mockito in JUnit?
+18. What is the @SpringBootApplication annotation used for?
+19. What is the @Transactional annotation in Spring Boot?
+20. Difference between RestController and Controller.
+21. What is the difference between POST and PUT methods?
+22. Explain the whole architecture of how REST API works.
+23. How can we achieve Spring Security?
+24. What is a JWT Token?
+25. What are microservices?
+26. What is an API Gateway?
+27. What is the circuit breaker design pattern in microservices?
+28. What is the SAGA design pattern in microservices?
+29. What is Docker and how does a Docker image work?
+30. What is a CI/CD Pipeline?
+31. Find the second highest salary of an employee using optimized SQL queries.
+32. Difference between hashMap and hashTable
+
+Technical round - 2
+1. walk me through your design process
+2. Design a service which is dependent on other service to verfiy user API authentication
+3. how to insert large data in mongoDB
+4. how to merge two collection in mongoDB and return a sorted result based on a field
+5. explain docker and docker file components
+
+HR round 
+location and expected ctc
